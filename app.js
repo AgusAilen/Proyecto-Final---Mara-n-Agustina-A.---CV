@@ -7,34 +7,16 @@ error.style.color = "red";
 var form = document.getElementById('formulario');
 form.addEventListener ('submit', function(evt){
     evt.preventDefault ();
-    var MensajeError = ["Valor invalido. Para continuar debes de ingresar"];
+    var MensajeError = ["Valor invalido"];
 
-    if (nombre.value === null && mail.value == null && mensaje.value === null 
-        || nombre.value === '' && mail.value === '' && mensaje.value === ''){
-        MensajeError.push('tu nombre, tu mail y un mensaje.');
-    } else{
-        if (nombre.value === null && mail.value == null 
-        || nombre.value === '' && mail.value === '' ){
-            MensajeError.push('tu nombre y tu mail.');
-        } else{
-            if  (nombre.value === null && mensaje.value == null 
-        || nombre.value === '' && mensaje.value === '' ){
-            MensajeError.push('tu nombre y un mensaje.');
-        }else {
-            if (mail.value === null && mensaje.value == null 
-        || mail.value === '' && mensaje.value === '' ){
-            MensajeError.push('tu mail y un mensaje.');
-        }else {
-            if (nombre.value === null ||nombre.value === ''){
-                 MensajeError.push('tu nombre.');
-            } else{ 
-                if (mail.value == null || mail.value === ''){
-                    MensajeError.push('tu mail.');
-                } else { 
-                    if (mensaje.value == null || mensaje.value === ''){ MensajeError.push('un mensaje.');
-                }}
-            }
-        }
-    }}}
-    error.innerHTML = MensajeError.join (' ');
+    if (nombre.value === null || nombre.value === ''){
+        MensajeError.push('debes ingresar tu nombre');
+    } 
+    if (mail.value === null || mail.value === ''){
+        MensajeError.push('debes ingresar tu correo electrónico');
+    }
+    if (mensaje.value === null || mensaje.value === ''){
+        MensajeError.push('debes ingresar un mensaje');
+    }
+    error.innerHTML = MensajeError.join (', ');
 });
