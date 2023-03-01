@@ -1,0 +1,179 @@
+body{
+    background-color: #1E9CE6;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: hsl(333, 50%, 64%);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Sansita', sans-serif;
+    font-size: 35px;
+    color: rgba(217, 213, 205, 0.979);
+        
+  }
+  h1{
+    font-size: 100%;
+    -webkit-text-stroke: 2px hsl(333, 29%, 45%);
+    letter-spacing: 7px;
+    font-weight: 900;
+    
+  }
+  h2{
+    font-family: 'Sansita', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    margin-bottom: 1%;
+  }
+  h3{
+    font-style: italic;
+    font-weight: bold;
+  }
+  #ingeniero{
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+  }
+  nav{
+    display:grid ;
+    grid-template-columns: auto auto auto auto;
+    background-color: hsl(333, 44%, 58%);
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 25px;
+  }
+  .menu{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .menu:hover{
+    color: black
+  }
+#Espacio_Principal {
+    background-color: white;
+    padding: 15px;
+}
+
+#Perfil{
+    text-align: center;
+    padding: 15px 0px 0px 20px;
+}
+#Perfil img{
+min-width: 124px;
+}
+img {
+    border-radius: 100%;
+}
+
+.Información{
+  width: auto;
+  height: auto;
+  display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto auto;
+   
+}
+
+.DP{
+  margin: 20px 0px 0px 15px;
+  padding: 5px;
+  grid-column: 1/3;
+}
+.Est{
+  margin: 20px 0px 0px 15px;
+  padding: 5px;
+  grid-column: 1/3;
+}
+#Exp{
+  margin: 20px 0px 0px 15px;
+  padding: 5px;
+  grid-column: 1/3;
+}
+.Exp{
+  margin: 20px 0px 0px 15px;
+  padding: 5px;
+  grid-column: 1/2;
+}
+.Video_Exp{
+  margin: 0;
+  padding: 5px;
+  grid-column: 2/3;
+}
+.IP{
+  margin: 20px 0px 0px 15px;
+  padding: 5px;
+  grid-column: 1/3;
+}
+@media (max-width: 770px){
+  .Exp{
+  margin: 10px 0px 0px 15px;
+  padding: 3px;
+  grid-column: 1/3;
+}
+.Video_Exp{
+  margin: 0;
+  padding: 5px;
+  grid-column: 1/3;
+}
+nav{
+  display:grid ;
+    grid-template-rows: auto auto auto auto;
+    background-color: hsl(333, 44%, 58%);
+    text-align: start;
+    padding: 10px 30px;
+    font-size: 25px;
+}
+#DPM {
+  grid-row: 1/2
+}
+#EstM {
+  grid-row: 2/3;
+}
+#ExpM {
+  grid-row: 3/4;
+}
+#IPM {
+  grid-row: 4/4;
+}
+}
+
+span {
+    font-weight: bold;
+    width: 20%;
+}
+footer{
+    background-color: rgba(217, 213, 205, 0.979);
+    text-align: center;
+    padding: 10px;
+}
+
+form{
+  text-align:unset;
+}
+input, textarea {
+  width: 60%;
+  margin: 10px;
+  padding: 10px;
+}
+textarea {
+  min-height: 150px;
+  max-height: 500px;
+  max-width: 60%;
+  min-width: 60%;
+}
+#boton {
+  background-color: rgba(151, 142, 126, 0.979) ;
+  border: solid rgba(132, 124, 110, 0.979);
+  color: white;
+  width: 62%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.sub_lista{
+  list-style-type: none;
+  padding-left: 5px;
+}

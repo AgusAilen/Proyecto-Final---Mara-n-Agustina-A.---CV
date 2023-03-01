@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simpson, Homero J. - CV</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400;1,500;1,700&family=Sansita:ital,wght@0,700;1,400;1,900&display=swap" rel="stylesheet">
+
+   <link 
+     rel="Icon"
+        type="imagen/png"
+        href="icon.png"
+        >
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+
+</head>
+<body>
+    <header>
+        <h1>CURRICULUM VITAE</h1>
+    </header>
+    <nav>
+        <a href="#DP" class="menu" id="DPM">Datos Personales</a>
+        <a href="#Est" class="menu" id="EstM">Estudios</a>
+        <a href="#Exp" class="menu" id="ExpM">Experiencia</a>
+        <a href="#IP" class="menu" id="IPM">Intereses Personales</a>
+    </nav>
+    <div id="Espacio_Principal">
+    <div id="Perfil">
+        <img 
+        src="Img/homero-simpson.jpg" 
+        alt="Homero J. Simpsons captado desprevenido comiendo una rosquilla"
+        height="35%" width="35%" 
+        />
+        <h2>Homero J. Simpson</h2>
+        <h3 id="ingeniero">Ingeniero en Energía Nuclear</h3>
+    </div >
+    <div class="Información">
+    <section class="DP">
+        <h3 id="DP">Datos Personales</h3>
+        <ul>
+            <li><span>Nombre Completo:</span> Homero Jay Simpson.</li>
+            <li><span>Dirección:</span> Avenida Siempreviva 742, Springfield.</li>
+            <li><span>Telefono:</span> 939-555-0113</li>
+            <li><span>E-mail:</span> HomeroSimpson@gmail.com</li>
+            <li><span>Fecha de Nacimiento:</span> 12 de mayo del 1956.</li>
+        </ul>
+    </section>
+    <section class="Est">
+        <h3 id="Est">Estudios</h3>
+        <ul>
+            <li>Escuela Secundaria Springfield.</li>
+            <li>Escuela Tecnológica Springfield.</li>
+            <li>Escuela de Payasos Krusty.</li>
+        </ul>
+    </section>
+    <h3 id="Exp">Experiencia</h3>
+    <Section class="Exp">
+        <ul>
+            <li>
+                <span>Planta de Energia Nuclear Springfield.</span>
+                <ul class="sub_lista">
+                    <li>Inspector de Seguridad en el sector 7-G.</li>
+                </ul>
+            </li>
+            <li>
+                <span>Ciudad de Springfield.</span>
+                <ul class="sub_lista">
+                    <li>Jefe de Policía.</li>
+                </ul>
+            </li>
+            <li>
+                <span>Administración Nacional de Aeronáutica Y Del Espacio Estadounidense (NASA).</span>
+                 <ul class="sub_lista">
+                    <li>Astronauta.</li>
+                 </ul>
+            </li>
+            <li>
+                <span>Isotopos de Springfield.</span>
+                <ul class="sub_lista">
+                    <li>Mascota del Equipo. </li>
+                </ul>
+            </li>
+            <li>
+                <span>Equipo Musical "Los Borbotones".</span>
+                <ul class="sub_lista">
+                    <li>Vocalista.</li>
+                </ul>
+            </li>
+        </ul>
+        </Section>
+    <section class="Video_Exp">
+        <video controls width="100%" height="100%">
+            <source src="Video/Trabajos de Homero.mp4" type="video/mp4">
+            
+        </video>
+    </section>
+    <section class="IP">
+        <h3 id="IP">Intereses Personales</h3>
+        <ul>
+            <li>Comer Rosquillas.</li>
+            <li>Dormir la Siesta.</li>
+            <li>Ver Televisión.</li>
+            <li>Robarle Pertenencias a Ned Flanders.</li>
+            <li>Tomar cerbeza "Duff" en el Bar de Moe.</li>
+        </ul>
+    </section>
+    </div>
+    </div>
+    <footer>
+        <h4>¿Te interesa contratarme?</h4>
+        <p>Podes escribirme a traves de</p>
+        <!--Imagenes de icon redes sociales obtenidos en https://www.vecteezy.com -->
+        <div class="Redes_Sociales">
+            <a href="https://www.instagram.com/thesimpsons/?hl=es" target="_blank">
+             <img
+            src="Img/Instagram.jpg"
+            alt="Instagram"
+            height="35px" width="auto"
+            />
+        </a>
+        <a href="https://www.facebook.com/TheSimpsons/?locale=es_LA" target="_blank">
+             <img
+            src="Img/Facebook.jpg"
+            alt="Facebook"
+            height="35px" width="auto"
+            />
+        </a>
+        <a href="https://twitter.com/TheSimpsons" target="_blank">
+             <img
+            src="Img/Twitter.jpg"
+            alt="Twitter"
+            height="35px" width="auto"
+            />
+        </a>
+        <a href="https://www.whatsapp.com/?lang=es" target="_blank">
+             <img
+            src="Img/Whatsapp.jpg"
+            alt="Whatsapp"
+            height="35px" width="auto"
+            />
+        </a>
+    </div>
+        
+        
+        <p>O completando el siguiente formulario</p>
+    <div class="formulario">
+        <form action="" method="post" id="formulario">
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo."><br>
+            <input type="text" id="mail" name="E-mail"placeholder="Dirección de Correo Electrónico."><br>
+            <textarea type="text" id="msj" name="Msj" placeholder="Escribe aquí tu mensaje."></textarea><br>
+            <div id="error"></div><br>
+            <input type="submit" value="Enviar" id="boton">
+            
+        </form>
+        </div>
+        
+        
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
