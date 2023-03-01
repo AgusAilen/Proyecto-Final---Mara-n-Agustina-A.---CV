@@ -7,16 +7,16 @@ error.style.color = "red";
 var form = document.getElementById('formulario');
 form.addEventListener ('submit', function(evt){
     evt.preventDefault ();
-    var MensajesError = [];
+    var MensajeError = [];
 
     if (nombre.value === null || nombre.value === ''){
-        MensajesError.push('Debes ingresar tu nombre');
+        MensajeError.push('Debes ingresar tu nombre');
     } 
     if (mail.value === null || mail.value === ''){
-        MensajesError.push('Debes ingresar tu correo electrónico');
+        MensajeError.push('Debes ingresar tu correo electrónico');
     }
     if (mensaje.value === null || mensaje.value === ''){
-        MensajesError.push('Debes ingresar un mensaje');
+        MensajeError.push('Debes ingresar un mensaje');
     }
-    error.innerHTML = MensajesError.join ('. ');
+    error.innerHTML = MensajeError.join ('. ');
 });
