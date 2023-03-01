@@ -31,7 +31,7 @@ form.addEventListener ('submit', function(evt){
                 if (mail.value == null || mail.value === ''){
                     MensajeError.push('tu mail.');
                 } else { 
-                    if (mail.value == null || mail.value === ''){ MensajeError.push('un mensaje.');
+                    if (mensaje.value == null || mensaje.value === ''){ MensajeError.push('un mensaje.');
                 }}
             }
         }
