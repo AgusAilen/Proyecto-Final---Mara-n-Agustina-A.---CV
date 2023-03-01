@@ -30,8 +30,9 @@ form.addEventListener ('submit', function(evt){
             } else{ 
                 if (mail.value == null || mail.value === ''){
                     MensajeError.push('tu mail.');
-                } else { MensajeError.push('un mensaje.');
-                }
+                } else { 
+                    if (mail.value == null || mail.value === ''){ MensajeError.push('un mensaje.');
+                }}
             }
         }
     }}}
