@@ -9,12 +9,15 @@ form.addEventListener ('submit', function(evt){
     var MensajeError = [];
 
     if (nombre.value === null || nombre.value === ''){
+        evt.preventDefault();
         MensajeError.push('Debes ingresar tu nombre');
     } 
     if (mail.value === null || mail.value === ''){
+        evt.preventDefault();
         MensajeError.push('Debes ingresar tu correo electrónico');
     }
     if (mensaje.value === null || mensaje.value === ''){
+        evt.preventDefault();
         MensajeError.push('Debes ingresar un mensaje');
     }
     error.innerHTML = MensajeError.join ('. ');
