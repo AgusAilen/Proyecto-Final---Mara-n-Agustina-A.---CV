@@ -1,4 +1,6 @@
 
+/** Función botones desplegables imagenes sección "Estudios" */
+
 var colegio = document.getElementById ('colegio');
 var universidad = document.getElementById ('uni');
 var payasos = document.getElementById ('payasos');
@@ -39,16 +41,7 @@ function getContador( si_no ) {
     return si_no == false;
 }
 
-/* colegio.addEventListener('click', desplegar (fcolegio, contadora))
-
-universidad.addEventListener('click', desplegar (funi, contador2))
-
-payasos.addEventListener('click', desplegar (fpayasos, contador3)) */
-
-
-
-
-
+/** Formulario de contacto final de la página */
 
 var nombre = document.getElementById ('nombre');
 var mail = document.getElementById ('mail');
