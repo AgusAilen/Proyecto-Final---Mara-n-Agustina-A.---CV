@@ -41,6 +41,21 @@ function getContador( si_no ) {
     return si_no == false;
 }
 
+
+/**Reproduccion Audios */
+
+ var rosquillas_audio=document.getElementById('rosquillas');
+ var dormir_auido=document.getElementById('dormir');
+ var tele_auido=document.getElementById('tele');
+ var matanga_auido=document.getElementById('matanga');
+ var moe_auido=document.getElementById('moe');
+
+ function iniciar(pista) { 
+    
+    pista.play(); 
+ } 
+
+
 /** Formulario de contacto final de la página */
 
 var nombre = document.getElementById ('nombre');

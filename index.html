@@ -136,11 +136,36 @@
     <section class="IP">
         <h3 id="IP">Intereses Personales</h3>
         <ul>
-            <li>Comer Rosquillas.</li>
-            <li>Dormir la Siesta.</li>
-            <li>Ver Televisión.</li>
-            <li>Robarle Pertenencias a Ned Flanders.</li>
-            <li>Tomar cerbeza "Duff" en el Bar de Moe.</li>
+            <li>  
+                <audio id="rosquillas">
+                    <source src="Audios/Rosquillas.mp3">
+                </audio>
+                <button class="boton" onclick="iniciar(rosquillas_audio)">Comer Rosquillas.</button>
+                </li>
+            <li>
+                <audio id="dormir">
+                    <source src="Audios/dormir.mp3">
+                </audio>
+                <button class="boton" onclick="iniciar(dormir_auido)">Dormir la Siesta.</button>
+            </li>
+            <li>
+                <audio id="tele">
+                    <source src="Audios/televisión.mp3">
+                </audio>
+                <button class="boton" onclick="iniciar(tele_auido)">Ver Televisión.</button>
+                </li>
+            <li>
+                <audio id="matanga">
+                    <source src="Audios/matanga.mp3">
+                </audio>
+                <button class="boton" onclick="iniciar(matanga_auido)">Robarle Pertenencias a Ned Flanders.</button>
+                </li>
+            <li>
+                <audio id="moe">
+                    <source src="Audios/sono,sono,sono.mp3">
+                </audio>
+                <button class="boton" onclick="iniciar(moe_auido)">Tomar cerbeza "Duff" en el Bar de Moe.</button>
+                </li>
         </ul>
     </section>
     </div>
