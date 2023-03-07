@@ -187,7 +187,7 @@ ul button:hover{
 .funi.foto{
   width:  512px ;
   height: 280px;
-  background-image: url(img/Homero\ Universitario.jpg);
+  background-image: url(Img/Homero\ Universitario.jpg);
   background-size: cover;
   grid-column: 1/3;
   margin: 15px;
@@ -195,7 +195,7 @@ ul button:hover{
 .fpayasos.foto{
   width: 512px;
   height: 527px;
-  background-image: url(img/Homero\ payaso.jpg);
+  background-image: url(Img/Homero\ payaso.jpg);
   background-size: cover;
   grid-column: 1/3;
   margin: 15px;
@@ -213,7 +213,7 @@ ul button:hover{
  .funi.foto{
    width:  312px ;
    height: 170px;
-   background-image: url(img/Homero\ Universitario.jpg);
+   background-image: url(Img/Homero\ Universitario.jpg);
    background-size: cover;
    grid-column: 1/3;
    margin: 15px;
@@ -221,7 +221,7 @@ ul button:hover{
  .fpayasos.foto{
    width: 312px;
    height: 321px;
-   background-image: url(img/Homero\ payaso.jpg);
+   background-image: url(Img/Homero\ payaso.jpg);
    background-size: cover;
    grid-column: 1/3;
    margin: 15px;
@@ -241,7 +241,7 @@ ul button:hover{
  .funi.foto{
    width:  226px ;
    height: 135px;
-   background-image: url(img/Homero\ Universitario.jpg);
+   background-image: url(Img/Homero\ Universitario.jpg);
    background-size: cover;
    grid-column: 1/3;
    margin: 15px;
@@ -249,7 +249,7 @@ ul button:hover{
  .fpayasos.foto{
    width: 226px;
    height: 210px;
-   background-image: url(img/Homero\ payaso.jpg);
+   background-image: url(Img/Homero\ payaso.jpg);
    background-size: cover;
    grid-column: 1/3;
    margin: 15px;
