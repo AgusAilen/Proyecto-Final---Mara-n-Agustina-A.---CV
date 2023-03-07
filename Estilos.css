@@ -141,15 +141,127 @@ nav{
 
 span {
     font-weight: bold;
-    width: 20%;
+    width: 20%;    
 }
 span a {
-  color: black;
+  color: black; 
 }
+span a:hover {
+  color: hsl(333, 44%, 58%);
+  font-style: italic;  
+}
+
+ul button{
+  border: none;
+  font-size: medium;
+  padding: 3px;
+}
+ul button:hover{
+  font-style: italic;
+  font-weight: bold;
+  color: hsl(333, 44%, 58%);
+}
+
+.fcolegio {
+  width: 0px;
+  height: 0px;
+}
+.funi {
+  width: 0px;
+  height: 0px;
+}
+.fpayasos {
+  width: 0px;
+  height: 0px;
+}
+
+.fcolegio.foto{
+  width: 512px;
+  height: 280px;
+  background-image: url(Img/Homero\ Adolescente.png);
+  grid-column: 1/3;
+  margin: 15px;
+}
+.funi.foto{
+  width:  512px ;
+  height: 280px;
+  background-image: url(img/Homero\ Universitario.jpg);
+  background-size: cover;
+  grid-column: 1/3;
+  margin: 15px;
+}
+.fpayasos.foto{
+  width: 512px;
+  height: 527px;
+  background-image: url(img/Homero\ payaso.jpg);
+  background-size: cover;
+  grid-column: 1/3;
+  margin: 15px;
+}
+
+@media (max-width: 660px){
+  .fcolegio.foto{
+   width: 312px;
+   height: 170px;
+   background-image: url(Img/Homero\ Adolescente.png);
+   background-size: cover;
+   grid-column: 1/3;
+   margin: 15px;
+ }
+ .funi.foto{
+   width:  312px ;
+   height: 170px;
+   background-image: url(img/Homero\ Universitario.jpg);
+   background-size: cover;
+   grid-column: 1/3;
+   margin: 15px;
+ }
+ .fpayasos.foto{
+   width: 312px;
+   height: 321px;
+   background-image: url(img/Homero\ payaso.jpg);
+   background-size: cover;
+   grid-column: 1/3;
+   margin: 15px;
+ } 
+ }
+
+
+@media (max-width: 440px){
+  .fcolegio.foto{
+   width: 226px;
+   height: 135px;
+   background-image: url(Img/Homero\ Adolescente.png);
+   background-size: cover;
+   grid-column: 1/3;
+   margin: 15px;
+ }
+ .funi.foto{
+   width:  226px ;
+   height: 135px;
+   background-image: url(img/Homero\ Universitario.jpg);
+   background-size: cover;
+   grid-column: 1/3;
+   margin: 15px;
+ }
+ .fpayasos.foto{
+   width: 226px;
+   height: 210px;
+   background-image: url(img/Homero\ payaso.jpg);
+   background-size: cover;
+   grid-column: 1/3;
+   margin: 15px;
+ } 
+ }
+
+
+
+
 footer{
     background-color: rgba(217, 213, 205, 0.979);
     text-align: center;
     padding: 10px;
+    
     
 }
 
